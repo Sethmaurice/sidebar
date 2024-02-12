@@ -2,15 +2,27 @@
 
 A new Flutter project.
 
-## Getting Started
+########################DONE#################################
 
-This project is a starting point for a Flutter application.
+1.Create
+a tab-based navigation with multiple screens accessible through tabs.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+▻Design
+tab icons and labels, and handle navigation between different tabs.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+▻Customize
+the appearance of active and inactive tabs.
+
+
+2.Create
+a navigation drawer with a hamburger menu icon and a slide-out animation.
+
+
+▻Design menu items and handle
+navigation to different screens.
+
+
+▻Customize the appearance of the
+drawer, such as adding icons or styling.
