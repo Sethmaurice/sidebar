@@ -24,7 +24,7 @@ class _AboutState extends State<About> {
             // Adjust the width as needed
           ),
           Text(
-            'I am a dedicated software developer with expertise in a variety of programming languages, With a strong foundation in software engineering, I possess excellent problem-solving skills and a commitment to staying abreast of the latest industry trends. My experience includes collaborating in cross-functional teams and delivering high-quality web applications',
+            'I am a dedicated software developer with expertise in a variety of programming languages, With a strong foundation in software engineering, I possess excellent problem-solving skills and a commitment to staying abreast of the latest industry trends. My experience includes collaborating in cross-functional teams and delivering high-quality web applications.',
             style: TextStyle(
               fontSize: 24, // Adjust the font size as needed
               fontWeight: FontWeight.bold, // Make the text bold
