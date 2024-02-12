@@ -47,33 +47,33 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       drawer: NavBar(),
       body: Welcome(),
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _selectedIndex,
-        onTap: _onItemTapped,
-        items: <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Home',
-            // Customize appearance of inactive tabs
-            backgroundColor: Colors.grey,
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.search),
-            label: 'Search',
-            // Customize appearance of inactive tabs
-            backgroundColor: Colors.grey,
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            label: 'Profile',
-            // Customize appearance of inactive tabs
-            backgroundColor: Colors.grey,
-          ),
-        ],
-        // Customize appearance of active tab
-        selectedItemColor: Colors.blue,
-        unselectedItemColor: Colors.black,
-      ),
+      // bottomNavigationBar: BottomNavigationBar(
+      //   currentIndex: _selectedIndex,
+      //   onTap: _onItemTapped,
+      //   items: <BottomNavigationBarItem>[
+      //     BottomNavigationBarItem(
+      //       icon: Icon(Icons.home),
+      //       label: 'Home',
+      //       // Customize appearance of inactive tabs
+      //       backgroundColor: Colors.grey,
+      //     ),
+      //     BottomNavigationBarItem(
+      //       icon: Icon(Icons.search),
+      //       label: 'Search',
+      //       // Customize appearance of inactive tabs
+      //       backgroundColor: Colors.grey,
+      //     ),
+      //     BottomNavigationBarItem(
+      //       icon: Icon(Icons.person),
+      //       label: 'Profile',
+      //       // Customize appearance of inactive tabs
+      //       backgroundColor: Colors.grey,
+      //     ),
+      //   ],
+      //   // Customize appearance of active tab
+      //   selectedItemColor: Colors.blue,
+      //   unselectedItemColor: Colors.black,
+      // ),
     );
   }
 }
